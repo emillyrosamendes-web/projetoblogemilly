@@ -1,1 +1,76 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog & Rotina ✦</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" alt="Minha Foto" class="profile-avatar">
+        <h1>Meu Diário Visual ✦</h1>
+        <p class="bio">Um pouquinho da minha rotina, ideias e momentos favoritos do dia a dia.</p>
+    </header>
+
+    <main class="feed">
+
+        <article class="card">
+            <div class="card-header">
+                <h3>Manhãs de Foco</h3>
+                <span class="time-tag">08:00 AM</span>
+            </div>
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Café e estudos" class="card-img">
+            <div class="card-content">
+                <p>Nada melhor do que começar o dia com um bom café e organizando a lista de tarefas. Hoje o foco é terminar os projetos da semana!</p>
+            </div>
+            <div class="card-footer">
+                <button class="like-btn" onclick="curtir(this)">
+                    ❤️ <span class="like-count">12</span> Curtidas
+                </button>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-header">
+                <h3>Pausa para Respirar</h3>
+                <span class="time-tag">15:30 PM</span>
+            </div>
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Passeio na praia ou parque" class="card-img">
+            <div class="card-content">
+                <p>Caminhada rápida à tarde para recarregar as energias e pegar um pouco de ar fresco. Ajuda muito na criatividade.</p>
+            </div>
+            <div class="card-footer">
+                <button class="like-btn" onclick="curtir(this)">
+                    ❤️ <span class="like-count">28</span> Curtidas
+                </button>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-header">
+                <h3>Modo Relax</h3>
+                <span class="time-tag">20:00 PM</span>
+            </div>
+            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80" alt="Livro e descanso" class="card-img">
+            <div class="card-content">
+                <p>Encerrando o dia com a leitura de um livro bom e chá quentinho. Hora de desligar as telas por hoje!</p>
+            </div>
+            <div class="card-footer">
+                <button class="like-btn" onclick="curtir(this)">
+                    ❤️ <span class="like-count">45</span> Curtidas
+                </button>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Feito com ♡ para compartilhar bons momentos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
